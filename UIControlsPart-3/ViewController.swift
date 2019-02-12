@@ -30,5 +30,5 @@ extension ViewController: UIScrollViewDelegate {
         let currentPoint = scrollView.contentOffset
         
         pageControl.currentPage = Int((currentPoint.x / scrollView.frame.size.width ))
-    }
+    } 
 }
